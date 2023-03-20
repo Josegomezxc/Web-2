@@ -1,0 +1,52 @@
+body{
+    background-color:#1d2742;
+    color:#fff;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:32px;
+}
+.operaciones{
+    display:flex;
+    align-items: center;
+    flex-direction:row;
+    gap: 5px;
+    margin:15px;
+   
+}
+h1{
+    color:tomato;
+    font-size:50px;
+    text-align: center;
+    margin: 0 auto;
+}
+.grupo{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px; /* Espacio entre los elementos */
+}
+.grupo label, button{
+    width:100%;
+    font-size:20px;
+    font-weight:bold;
+}
+.grupo button{
+   border-radius:10px;
+    margin:2px;
+    color:white;
+   
+    height:45px;
+    background-image: linear-gradient(to right top, #051937, #ce2626, #d13030, #d7c135, #7c0808);
+    cursor: pointer;
+    transition: .5s ease-in-out;  
+}
+
+textarea{
+    margin-top:20px;
+    width:95%;
+    border-radius: 15px;
+    padding: 10px;
+    font-size:30px;
+    color:#1d2742;
+    font-weight:bold;
+    
+}
